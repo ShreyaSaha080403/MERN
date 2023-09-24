@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img{
+            max-width:50%;
+                max-height: 50%;
+                position: absolute;
+                left:50%;
+               
+        }
+
+        form{
+           position: relative;
+           top: 290px;
+            left: 180px;
+        }
+        .box{
+            width:90%;
+            padding: 12px 20px;
+            box-sizing:content-box;
+            margin: 3px 0;
+            border: 1px solid lightgray;
+        }
+        .button{
+           background-color: green;
+           width:98.5%;
+           padding: 12px 20px;
+           color: white;
+           border: 1px solid lightgray;
+        }
+        
+        .button2{
+            background-color:red;
+            color: white;
+            border: 1px solid lightgray;
+            padding:10px;
+            border-radius: 10%;
+        }
+        span{
+            margin-left: 310px;
+        }
+        
+    </style> 
+<body>
+    <img src="profPic.jpeg" alt="profile pic">
+    <form>
+        <b>Username</b><br>
+        <input class="box" type="text" placeholder="Enter your name"> <br> <br>
+        <b>Password</b><br> <input class="box" type="password"placeholder="Enter password" ><br><br>
+        <button class="button">Login</button> <br><br>
+        <input type="checkbox" checked>Remember Me<br><br>
+        <input type="reset" value="Cancel" class="button2"> 
+        <span>Forgot password?</span>
+    </form>
+    
+</body>
+</html>
